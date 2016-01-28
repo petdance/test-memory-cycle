@@ -270,10 +270,13 @@ Thanks to the contributions of Stevan Little, and to Lincoln Stein for writing D
 
 =head1 COPYRIGHT
 
-Copyright 2006, Andy Lester, All Rights Reserved.
+Copyright 2003-2016 Andy Lester.
 
-You may use, modify, and distribute this package under the
-same terms as Perl itself.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the Artistic License v2.0.
+
+See http://www.perlfoundation.org/artistic_license_2_0 or the LICENSE
+file that comes with the Test::Memory::Cycle distribution.
 
 =cut
 
