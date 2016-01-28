@@ -1,5 +1,6 @@
 #!perl -T
 
+use warnings FATAL => 'all';
 use strict;
 
 use Test::Builder::Tester tests => 5;
