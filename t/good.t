@@ -4,14 +4,15 @@ use strict;
 
 use Test::Builder::Tester tests => 2;
 use Test::More;
-use CGI;
+use lib 't';
+use Foo;
 
 BEGIN {
     use_ok( 'Test::Memory::Cycle' );
 }
 
 GOOD: {
-    my $cgi = new CGI;
+    my $cgi = new Foo;
 
-    memory_cycle_ok( $cgi, "CGI doesn't leak" );
+    memory_cycle_ok( $cgi, "Foo doesn't leak" );
 }
