@@ -19,7 +19,7 @@ our $VERSION = '1.04';
 
 Perl's garbage collection has one big problem: Circular references
 can't get cleaned up.  A circular reference can be as simple as two
-reference that refer to each other:
+references that refer to each other:
 
     my $mom = {
         name => "Marilyn Lester",
