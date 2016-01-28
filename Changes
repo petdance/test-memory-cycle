@@ -1,7 +1,7 @@
 Revision history for Perl extension Test::Memory::Cycle
 
-1.06
-        This release has no new features.
+1.06:   Wed Jan 27 22:36:55 CST 2016
+        This release has no changes in functionality.
 
         [FIXES]
         * One of the tests used to use CGI.pm, but it was not a declared
@@ -31,12 +31,10 @@ Revision history for Perl extension Test::Memory::Cycle
 
 
 0.04    Tue Mar  9 23:42:26 CST 2004
-
         [FIXES]
         * t/pod-coverage.t works better now.
 
 0.02    Mon Jan 19 23:01:29 CST 2004
-
         [ENHANCEMENTS]
         * Cleaned up formatting a bit.
 
