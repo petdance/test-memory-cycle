@@ -33,6 +33,7 @@ my $amy = {
 my $quinn = {
     name => "Quinn Lester",
     parents => [$andy,$amy],
+    interests => qr/(?:drums|trumpet)/,
 };
 
 $mom->{children} = [$andy];

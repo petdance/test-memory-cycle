@@ -14,8 +14,8 @@ BEGIN {
 my $dis = Getopt::Long::Parser->new;
 my $dat = Getopt::Long::Parser->new;
 
-$dis->{dose} = [$dat,$dat,$dat];
-$dat->{dem} = { dis => $dis };
+$dis->{dose} = [ $dat, $dat, $dat, qr/pattern/ ];
+$dat->{dem} = { dis => $dis, regex => qr/pattern/ };
 
 test_out( "not ok 1 - Object family" );
 test_fail( +16 );

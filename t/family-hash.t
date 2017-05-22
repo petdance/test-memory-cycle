@@ -19,6 +19,7 @@ my $mom = {
 my $me = {
     name => "Andy Lester",
     mother => $mom,
+    called_by => qr/^And(?:y|rew)$/,
 };
 $mom->{son} = $me;
 

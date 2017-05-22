@@ -52,7 +52,7 @@ test_test( "Flip-flopped the A/B" );
 
 
 my $sybil;
-$sybil = [ $sybil, \$sybil, $me, \$sybil ];
+$sybil = [ $sybil, \$sybil, $me, \$sybil, qr/pattern/ ];
 test_out( "not ok 1" );
 test_fail( +11 );
 test_diag( 'Cycle #1' );
