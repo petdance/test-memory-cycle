@@ -1,5 +1,9 @@
 Revision history for Perl extension Test::Memory::Cycle
 
+NEXT
+        [FIXES]
+        * Removed unnecessary requirement of PadWalker.
+
 1.06    Wed Jan 27 22:36:55 CST 2016
         This release has no changes in functionality.
 
