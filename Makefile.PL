@@ -9,6 +9,7 @@ WriteMakefile(
     PREREQ_PM => {
         'Devel::Cycle'          => 1.07,  # for weakened ref checking
         'Getopt::Long'          => 0,
+        'PadWalker'             => 0,   # Devel::Cycle needs this for code closures.
         'Test::Builder'         => 0,
         'Test::Builder::Tester' => 0,
         'Test::More'            => 0,
