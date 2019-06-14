@@ -246,10 +246,6 @@ You can also look for information at:
 
 =over 4
 
-=item * AnnoCPAN: Annotated CPAN documentation
-
-L<http://annocpan.org/dist/Test-Memory-Cycle>
-
 =item * CPAN Ratings
 
 L<http://cpanratings.perl.org/d/Test-Memory-Cycle>
